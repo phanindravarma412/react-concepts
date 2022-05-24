@@ -1,15 +1,13 @@
-import React from "react";
 import "./App.css";
-import {Container} from "./components/JSS_styling/Container";
 
+import AxiosExample from "./components/Axios/AxiosExample";
 
-
-export const App = () => {
- 
+function App() {
   return (
-    <>
-      <Container />
-    </>
+    <div className="App">
+      <AxiosExample />
+    </div>
   );
 }
 
+export default App;
